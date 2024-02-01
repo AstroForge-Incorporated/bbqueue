@@ -108,8 +108,6 @@ pub use bbbuffer::*;
 
 #[cfg(feature = "alloc")]
 mod arc;
-#[cfg(feature = "alloc")]
-pub use arc::*;
 
 pub mod framed;
 mod vusize;
